@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="py-8">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6">About Us</h1>
+    
+    <div class="bg-white shadow-md rounded-lg p-6 mb-8">
+        <h2 class="text-2xl font-semibold text-gray-700 mb-4">Our Mission</h2>
+        <p class="text-gray-600 mb-4">
+            Our mission is to simplify financial documentation management for businesses and individuals.
+            We provide intuitive tools that streamline the process of creating and managing financial records.
+        </p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <div class="bg-white shadow-md rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-gray-700 mb-3">Our Team</h3>
+            <p class="text-gray-600">
+                We are a dedicated team of developers, designers, and financial experts passionate about
+                creating solutions that make managing finances easier for everyone.
+            </p>
+        </div>
+        
+        <div class="bg-white shadow-md rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-gray-700 mb-3">Our History</h3>
+            <p class="text-gray-600">
+                Founded in 2023, our platform has grown from a simple receipt generator to a comprehensive
+                financial documentation management system trusted by businesses across the country.
+            </p>
+        </div>
+    </div>
+    
+    <div class="bg-white shadow-md rounded-lg p-6">
+        <h2 class="text-2xl font-semibold text-gray-700 mb-4">Contact Information</h2>
+        <div class="text-gray-600">
+            <p class="mb-2"><span class="font-medium">Email:</span> contact@example.com</p>
+            <p class="mb-2"><span class="font-medium">Phone:</span> +62 123 4567 890</p>
+            <p class="mb-2"><span class="font-medium">Address:</span> Jl. Example Street No. 123, City, Country</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
